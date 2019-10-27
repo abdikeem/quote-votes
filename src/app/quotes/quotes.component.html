@@ -6,13 +6,15 @@
     <div class="row">
       <div class="col-md-6">
          <div *ngFor='let quotes of quotes;let i = index'>
-              <button (click)='toggleDetails(i)'>Toggle Details</button>
+              <button (click)='toggleDetails(i)' class ="btn btn-primary">Toggle Details</button>
               <div *ngIf='quotes.showDescription'>
-      <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>
+                    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>
               </div>
          </div>
       </div>
     </div>
-     
+     <div class="col-md-6">
+         <app-quotes-form></app-quotes-form>
+     </div>
     <p *ngIf='quotes.length > 50'>You have too many quotes</p>
 </div>
