@@ -1,5 +1,5 @@
 <div class="container-fluid">
-        <h2 class="text-center">Create a new QUotes</h2>
+        <h2 class="text-center">Create a new Quotes</h2>
         <hr>
         <form>
             <div class="form-group">
@@ -7,6 +7,7 @@
                 <label for="name">Name</label>
                 <input type="text" required class="form-control" id="name">
       
+                display {{newQuotes.name}}
             </div>
             <div class="form-group">
       
@@ -19,5 +20,6 @@
                 <input type='date' id="complete" required>
       
             </div>
+            <button type="submit" class="btn btn-success">Add Quote</button>
         </form>
       </div>
