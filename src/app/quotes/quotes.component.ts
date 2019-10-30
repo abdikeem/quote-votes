@@ -9,9 +9,9 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
 
   quotes: Quotes [] = [
-    new Quotes(1, 'Inspirational Quotes', 'Find an online version and watch merlin find his son',new Date(2010,4,15)),
-    new Quotes(2,'Quotes of the day','I have to buy cookies for the parrot',new Date(2012,4,15)),
-    new Quotes(3,'quotes of the year','Diana has her birthday coming up soon',new Date(2014,4,15)),
+    new Quotes(1, 'Inspirational Quotes', 'If you are working on something that you really care about, you do not have to be pushed',new Date(2020,7,1)),
+    new Quotes(2,'Quotes of the day','It is not whether you get knocked down, is whether you get up',new Date(2019,12,10)),
+    new Quotes(3,'quotes of the year','You learn more from failure than from success',new Date(2024,4,15)),
   ];
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;

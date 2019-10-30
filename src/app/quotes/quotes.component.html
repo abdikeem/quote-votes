@@ -14,7 +14,7 @@
       </div>
     </div>
      <div class="col-md-6">
-         <app-quotes-form (addnewQuotes)="addnewQuotes($event)"></app-quotes-form>
+         <app-quotes-form (addQuote)="addnewQuote($event)"></app-quotes-form>
      </div>
-    <p *ngIf='quotes.length > 50'>You have too many quotes</p>
+    <p *ngIf='quotes.length > 10'>You have too many quotes</p>
 </div>

@@ -1,4 +1,8 @@
-# Abdihakim Abdirahman
+# Author
+ Abdihakim Abdirahman
+
+ ## Description
+ This project is basically where your create your feverate quotes.The user can delete the quote he/she created and change it to another
 
 ## Quotes
 
@@ -27,3 +31,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### contacts
+Tel:0208000360
+Email:abdihakimabdirahman21@gmail.com
+
+### live link
+ https://abdikeem.github.io/quote-votes/
+
+### license & copy-right
+MIT Copyright(c)2019
