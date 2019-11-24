@@ -1,19 +1,24 @@
-<div class="container">
-    <div class="row">
-      <div class="col-md-6">
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h2><strong><em>Quotes</em></strong></h2><br>
+      <div class="row">
+      <div class="col-md-12">
          <div *ngFor='let quotes of quotes;let i = index'>
-              <button (click)='toggleDetails(i)' class ="btn btn-primary">Toggle Details</button>
-              <div *ngIf='quotes.showDescription'>
-                    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>
+
+             <button (click)='toggleDetails(i)' class ="btn btn-primary">Toggle Details</button>
+               <div>
+                    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>&nbsp;
                     
-                    <button class="btn btn-primary" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>
+                    <button class="btn btn-primary" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>&nbsp;
+
                     <button class="btn btn-primary" (click)='downVote()'> downVote <span>{{downVotes}}</span></button>
               </div>
          </div>
       </div>
     </div>
+    </div>
      <div class="col-md-6">
          <app-quotes-form (addQuote)="addnewQuote($event)"></app-quotes-form>
      </div>
-    <p *ngIf='quotes.length > 10'>You have too many quotes</p>
+    <p *ngIf='quotes.length > 5'>You have too many quotes</p>
 </div>

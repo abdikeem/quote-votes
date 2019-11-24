@@ -1,0 +1,36 @@
+.jumbotron{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.089);
+    font-family: cursive;
+  
+  }
+  
+  .container-fluid{
+    background-image: url("/assets/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+  .items{
+  
+      background-color: rgba(255,255,255,0.9);
+  }
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  li{
+    margin: 25px;
+  }
+  button{
+    margin-bottom: 10px;
+  }
+  #listed{
+    font-family: 'Courgette', cursive;
+  }
+  h2{
+    font-size: 60px;
+    text-shadow: 4px 2px rgb(233, 236, 21);
+    color: white;
+  }

@@ -1,0 +1,20 @@
+
+  .button{
+    background-color: rgb(19, 167, 204);
+    border-radius: 7px;
+    border: 2px solid rgb(22, 135, 187);
+  }
+  .button:hover{
+    color: rgb(216, 209, 209);
+  }
+  h2{
+      text-shadow: 2px 2px darkgoldenrod;
+  }
+  .all{
+    font-size: 20px;
+    text-shadow: 2px 2px coral;
+  }
+  .form{
+    border-radius: 7px;
+    border:2px solid rgb(80, 255, 89);
+  }
