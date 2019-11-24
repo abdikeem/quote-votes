@@ -1,13 +1,5 @@
 <div class="container-fluid">
-    <h2 class="text-center">Create a new Quote</h2>
-    <hr>
-    <form (ngSubmit)='submitQuotes()' #QuotesForm='ngForm'>
-        <div class="form-group">
-  
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" [(ngModel)]="newQuotes.name" name="name" #name='ngModel' required>
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-              <p>Name is required</p>
+
             </div>
         </div>
         <div class="form-group">
