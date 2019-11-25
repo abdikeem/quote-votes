@@ -7,6 +7,7 @@ import { Quotes } from '../quotes';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
+  numberoflikes : number = 0;
 
   quotes: Quotes [] = [
     new Quotes(1, 'Inspirational Quote', 'If you are working on something that you really care about, you do not have to be pushed',new Date(2020,7,1)),
@@ -27,6 +28,17 @@ export class QuotesComponent implements OnInit {
         this.quotes.splice(index,1)
       }
     }
+  }
+
+  upVotes:number=0;
+  upVote(){
+    this.upVotes=this.upVotes+1;
+
+  }
+  downVotes:number=0;
+  downVote(){
+    this.downVotes=this.downVotes+1;
+
   }
 
   addNewGoal(quotes){
