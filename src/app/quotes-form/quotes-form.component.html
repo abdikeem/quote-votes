@@ -8,9 +8,17 @@
             <label class="all" for="name">Author</label><br>
             <input type="text" class="form" id="name" [(ngModel)]="newQuotes.name" name="name" #name='ngModel' required>
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-              <p>Name is required</p>
+              <p>Name of Author required</p>
             </div>
         </div>
+        <div class="form-group">
+  
+          <label class="all" for="owner">Writter</label><br>
+          <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.name" name="owner" #name='ngModel' required>
+          <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+            <p>Name of Writter required</p>
+          </div>
+      </div>
         <div class="form-group">
   
             <label  class="all" for="description">Quote</label><br>
@@ -27,6 +35,6 @@
               <p>Date is required</p>
             </div>
         </div>
+        <button type="submit" class="button">Add Quote</button>
     </form>
-    <button type="submit" class="button">Add Quote</button>
   </div>

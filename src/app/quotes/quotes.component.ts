@@ -18,18 +18,6 @@ export class QuotesComponent implements OnInit {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
     
   }
- 
-  
-  upVotes:number=0;
-    upVote(){
-      this.upVotes=this.upVotes+1;
-
-    }
-    downVotes:number=0;
-    downVote(){
-      this.downVotes=this.downVotes+1;
-
-    }
      
   deleteQuotes(isComplete, index){
     if (isComplete) {
