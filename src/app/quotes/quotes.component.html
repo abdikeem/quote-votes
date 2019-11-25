@@ -5,7 +5,7 @@
       <div class="col-md-12">
          <div *ngFor='let quotes of quotes;let i = index'>
 
-             <button (click)='toggleDetails(i)' class ="btn btn-primary">Toggle Details</button>
+             <button (click)='toggleDetails(i)' class ="btn btn-primary" id="toggle" >Toggle Details</button>
                <div>
                     <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>&nbsp;
                     
