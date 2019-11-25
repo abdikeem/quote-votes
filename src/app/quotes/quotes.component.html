@@ -9,8 +9,9 @@
                <div>
                     <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>&nbsp;
                     
-                    <button class="btn btn-primary" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>&nbsp;
-                    <button class="btn btn-primary" (click)='downVote()'> downVote <span>{{downVotes}}</span></button>
+                    <button class="btn success"id="vote" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>&nbsp;
+                    <button class="btn danger" id="vote"(click)='downVote()'> downVote <span>{{downVotes}}</span></button>&nbsp;
+                   
                     
               </div>
          </div>

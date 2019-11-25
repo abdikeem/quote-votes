@@ -34,3 +34,33 @@
     text-shadow: 4px 2px rgb(233, 236, 21);
     color: white;
   }
+  
+  .danger {
+    border-color: #f44336;
+    color: red
+  }
+  
+  .danger:hover {
+    background: #f44336;
+    color: white;
+  }
+
+.danger:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(54, 216, 13);
+  transform: translateY(4px);
+}
+  .success {
+    border-color: #4CAF50;
+    color: green;
+  }
+  .success:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.success:active {
+  background-color: #723020;
+  box-shadow: 0 5px rgb(216, 9, 9);
+  transform: translateY(4px);
+}

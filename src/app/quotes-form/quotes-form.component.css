@@ -1,12 +1,24 @@
 
-  .button{
-    background-color: rgb(19, 167, 204);
-    border-radius: 7px;
-    border: 2px solid rgb(22, 135, 187);
-  }
-  .button:hover{
-    color: rgb(216, 209, 209);
-  }
+ .button {
+  padding: 5px 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #2e56d8}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
   h2{
       text-shadow: 2px 2px darkgoldenrod;
   }

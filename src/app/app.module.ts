@@ -9,7 +9,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
-import { LikeComponent } from './like/like.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { LikeComponent } from './like/like.component';
     StrikethroughDirective,
     DateCountPipe,
     QuotesFormComponent,
-    LikeComponent
+    
   ],
   imports: [
     BrowserModule,
