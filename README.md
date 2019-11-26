@@ -2,11 +2,22 @@
  Abdihakim Abdirahman
 
  ## Description
- This project is basically where your create your feverate quotes.The user can delete the quote he/she created and change it to another
+ This project is basically where your create your feverate quotes.The user can delete the quote, he/she can create quote and upvote or downvote the quote.
 
 ## Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
+
+## Technologies used
+ Nodejs
+ Angularjs
+ Bootstrap
+
+ ### Setup
+Open terminal and run:
+   ng new quote to create angular project 
+   cd quote
+   ng serve --open to open the project on our browser
 
 ### Development server
 
