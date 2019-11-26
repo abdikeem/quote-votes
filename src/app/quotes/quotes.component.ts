@@ -15,6 +15,7 @@ export class QuotesComponent implements OnInit {
     new Quotes(3,'quote of the year','You learn more from failure than from success',new Date(2024,4,15)),
   ];
 
+
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
     
@@ -30,17 +31,6 @@ export class QuotesComponent implements OnInit {
     }
   }
 
-  upVotes:number=0;
-  upVote(){
-    this.upVotes=this.upVotes+1;
-
-  }
-  downVotes:number=0;
-  downVote(){
-    this.downVotes=this.downVotes+1;
-
-  }
-
   addNewGoal(quotes){
     let quotesLength = this.quotes.length;
     quotes.id = quotesLength+1;
@@ -48,6 +38,17 @@ export class QuotesComponent implements OnInit {
     this.quotes.push(quotes)
   }
  
+
+upVotes:number=0;
+upVote(){
+  this.upVotes=this.upVotes+1;
+
+}
+downVotes:number=0;
+downVote(){
+  this.downVotes=this.downVotes+1;
+
+}
 
   constructor() { }
 

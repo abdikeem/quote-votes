@@ -4,17 +4,16 @@
       <div class="row">
       <div class="col-md-12">
          <div *ngFor='let quotes of quotes;let i = index'>
-
-             <button (click)='toggleDetails(i)' class ="btn btn-primary" id="toggle" >Toggle Details</button>
+                
                <div>
-                    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>&nbsp;
                     
                     <button class="btn success"id="vote" (click)='upVote()'> upVote <span>{{upVotes}}</span></button>&nbsp;
                     <button class="btn danger" id="vote"(click)='downVote()'> downVote <span>{{downVotes}}</span></button>&nbsp;
-                   
-                    
-              </div>
+                    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail><br>
+                    <button (click)='toggleDetails(i)' id="warning" class="btn btn-outline-danger">Quote Details</button>
+              </div> 
          </div>
+         
       </div>
     </div>
     </div>

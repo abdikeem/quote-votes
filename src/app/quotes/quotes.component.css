@@ -37,7 +37,7 @@
   
   .danger {
     border-color: #f44336;
-    color: red
+    color: rgb(12, 11, 11)
   }
   
   .danger:hover {
@@ -47,12 +47,12 @@
 
 .danger:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px rgb(54, 216, 13);
+  box-shadow: 2px 5px rgb(54, 216, 13);
   transform: translateY(4px);
 }
-  .success {
+  .success{
     border-color: #4CAF50;
-    color: green;
+    color: rgb(11, 12, 11);
   }
   .success:hover {
     background-color: #4CAF50;
@@ -63,4 +63,18 @@
   background-color: #723020;
   box-shadow: 0 5px rgb(216, 9, 9);
   transform: translateY(4px);
+}
+
+#warning {
+  color: black; 
+  border: 2px solid rgb(11, 25, 214);
+}
+#warning:hover {
+  background-color: rgb(204, 101, 6);
+  color: white;
+}
+#warning:active {
+background-color: #31139e;
+box-shadow: 0 5px rgb(216, 9, 9);
+transform: translateY(4px);
 }
