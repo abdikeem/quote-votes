@@ -9,15 +9,15 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
 
 ## Technologies used
- Nodejs
- Angularjs
- Bootstrap
+ 1.Nodejs
+ 2.Angularjs
+ 3.Bootstrap
 
  ### Setup
 Open terminal and run:
-   ng new quote to create angular project 
-   cd quote
-   ng serve --open to open the project on our browser
+   1.ng new quote to create angular project 
+   2.cd quote
+   3.ng serve --open to open the project on our browser
 
 ### Development server
 
