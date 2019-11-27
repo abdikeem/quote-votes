@@ -1,12 +1,14 @@
 .jumbotron{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.089);
-    font-family: cursive;
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 40px;
+    /* colors:'#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6'; */
   
   }
   
   .container-fluid{
-    background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/losa-background-6-300x200.jpg");
+    background-image: url("https://media.istockphoto.com/photos/light-wood-background-picture-id178281439?k=6&m=178281439&s=612x612&w=0&h=xp06gIqA7ABImYwMqXsrOiCdla2S1BIuz-i9XItwXo0=");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -31,8 +33,9 @@
   }
   h2{
     font-size: 60px;
-    text-shadow: 4px 2px rgb(233, 236, 21);
-    color: white;
+    text-shadow: 8px 4px rgb(233, 182, 13);
+    color: rgb(35, 16, 204);
+    font-family: 'Nosifer', cursive;
   }
   
   .danger {
