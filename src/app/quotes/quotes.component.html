@@ -15,7 +15,8 @@
                                Author:{{quotes.author}}
                 
                                <div>  
-                                    <button class="btn success"id="vote" (click)='upvote(i)'> upvote <span>{{quotes.upvote}}</span></button>&nbsp;
+                                   
+                                    <button class="btn success" id="vote" (click)='upvote(i)'> upvote <span>{{quotes.upvote}}</span></button>&nbsp;
                                     <button class="btn danger" id="vote"(click)='downvote(i)'> downvote <span>{{quotes.downvote}}</span></button>&nbsp;
                                     <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail><br>
                                     <button (click)='toggleDetails(i)' id="warning" class="btn btn-outline-danger">Quote Details</button>

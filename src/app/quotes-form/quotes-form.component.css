@@ -1,5 +1,5 @@
 
- .button {
+ #button {
   padding: 5px 10px;
   font-size: 24px;
   text-align: center;
@@ -13,9 +13,9 @@
   margin-left: 850px;
 }
 
-.button:hover {background-color: #2e56d8}
+#button:hover {background-color: #2e56d8}
 
-.button:active {
+#button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -38,7 +38,5 @@
 
   }
   
-  .container-fluid{
-    background-image: url();
-  }
+  
   
