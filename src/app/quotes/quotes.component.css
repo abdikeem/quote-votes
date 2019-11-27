@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  
+    
   }
   .items{
   
@@ -37,7 +37,7 @@
   
   .danger {
     border-color: #f44336;
-    color: rgb(12, 11, 11)
+    color: rgb(12, 11, 11);
   }
   
   .danger:hover {

@@ -1,44 +1,44 @@
+<h2>Create Quote:</h2>
 <div class="container-fluid">
-        
-    <h2 class="text-center">Create Quote</h2>
-      <form (ngSubmit)='submitQuotes()' #QuotesForm='ngForm'>
-
+    <div class="row">
+      <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
 
         <div class="form-group">
   
-            <label class="all" for="name">Your Name</label><br>
-            <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.name" name="owner" #name='ngModel' required>
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-              <p>Your name is required</p>
-            </div>
-        </div>
-        
-        <div class="form-group">
-  
-            <label  class="all" for="description">Quote</label><br>
-            <textarea class="form" id="description" rows="4" [(ngModel)]="newQuotes.description" name="description" #description="ngModel" required></textarea>
-            <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
-              <p>Quote is required</p>
-            </div>
-        </div>
-        <div class="form-group">
-  
-            <label class="all" for="complete">Date</label><br>
-            <input type='date' class="form" id="complete" [(ngModel)]="newQuotes.completeDate" name="completeDate" #completeDate="ngModel" required>
-            <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-              <p>Date is required</p>
-            </div>
-        </div>
+          <label class="all" for="name">Your Name</label><br>
+          <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.name" name="owner" #name='ngModel' required>
+          <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+            <p>Your name is required</p>
+          </div>
+      </div>
+      
+      <div class="form-group">
 
-        <div class="form-group">
-  
-            <label class="all" for="author">Author</label><br>
-            <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.author" name="author" #author='ngModel' required>
-            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-              <p>Author's name is required</p>
-            </div>
-        </div>
-       
-        <button type="submit"  ng-disable="myform.$invalid | | myform.$pending" class="button">Add Quote</button><br><br>
-      </form>
+          <label  class="all" for="description">Quote</label><br>
+          <textarea class="form" id="description" rows="4" [(ngModel)]="newQuotes.description" name="description" #description="ngModel" required></textarea>
+          <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
+            <p>Quote is required</p>
+          </div>
+      </div>
+      
+      <div class="form-group">
+
+          <label class="all" for="author">Author</label><br>
+          <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.author" name="author" #author='ngModel' required>
+          <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+            <p>Author's name is required</p>
+          </div>
+      </div>
+
+      <div class="form-group">
+
+          <label class="all" for="complete">Date</label><br>
+          <input type='date' class="form" id="complete" [(ngModel)]="newQuotes.completeDate" name="completeDate" #completeDate="ngModel" required>
+          <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+            <p>Date is required</p>
+          </div>
+      </div>
+      <button type="submit"  class="button">Add Quote</button><br><br>
+        </form>
+    </div>
 </div>
