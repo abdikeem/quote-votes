@@ -10,6 +10,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  margin-left: 850px;
 }
 
 .button:hover {background-color: #2e56d8}
@@ -21,13 +22,23 @@
 }
   h2{
       text-shadow: 2px 2px darkgoldenrod;
+      margin-left: 850px;
   }
   .all{
     font-size: 20px;
     text-shadow: 2px 2px coral;
+    margin-left: 850px;
   }
   .form{
     border-radius: 7px;
     border:2px solid rgb(80, 255, 89);
+    /* left: 50%; */
+    margin-left: 850px;
+    /* margin-right: 100%; */
+
+  }
+  
+  .container-fluid{
+    background-image: url();
   }
   

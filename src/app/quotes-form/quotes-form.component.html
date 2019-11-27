@@ -1,11 +1,12 @@
-<h2>Create Quote:</h2>
+
 <div class="container-fluid">
+    <h2>Quote:</h2><br>
     <div class="row">
-      <form (ngSubmit)='submitQuote()' #quoteForm="ngForm">
+      <form (ngSubmit)='submitQuotes()' #quotesForm="ngForm">
 
         <div class="form-group">
   
-          <label class="all" for="name">Your Name</label><br>
+          <label class="all" for="name">Your Name:</label><br>
           <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.name" name="owner" #name='ngModel' required>
           <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
             <p>Your name is required</p>
@@ -14,7 +15,7 @@
       
       <div class="form-group">
 
-          <label  class="all" for="description">Quote</label><br>
+          <label  class="all" for="description">Quote:</label><br>
           <textarea class="form" id="description" rows="4" [(ngModel)]="newQuotes.description" name="description" #description="ngModel" required></textarea>
           <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
             <p>Quote is required</p>
@@ -23,7 +24,7 @@
       
       <div class="form-group">
 
-          <label class="all" for="author">Author</label><br>
+          <label class="all" for="author">Author:</label><br>
           <input type="text" class="form" id="owner" [(ngModel)]="newQuotes.author" name="author" #author='ngModel' required>
           <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
             <p>Author's name is required</p>
@@ -32,7 +33,7 @@
 
       <div class="form-group">
 
-          <label class="all" for="complete">Date</label><br>
+          <label class="all" for="complete">Date:</label><br>
           <input type='date' class="form" id="complete" [(ngModel)]="newQuotes.completeDate" name="completeDate" #completeDate="ngModel" required>
           <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
             <p>Date is required</p>
