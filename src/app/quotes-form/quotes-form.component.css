@@ -21,8 +21,9 @@
   transform: translateY(4px);
 }
   h2{
-      text-shadow: 2px 2px darkgoldenrod;
+      text-shadow: 2px 0px rgb(7, 22, 163);
       margin-left: 850px;
+      font-family: 'Ewert', cursive;
   }
   .all{
     font-size: 20px;
@@ -37,6 +38,9 @@
     /* margin-right: 100%; */
 
   }
-  
+  body{
+    background-image: url("https://media.istockphoto.com/photos/light-wood-background-picture-id178281439?k=6&m=178281439&s=612x612&w=0&h=xp06gIqA7ABImYwMqXsrOiCdla2S1BIuz-i9XItwXo0=");
+    font-family: 'Rye', cursive;
+  }
   
   

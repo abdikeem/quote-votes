@@ -71,6 +71,8 @@
 #warning {
   color: black; 
   border: 2px solid rgb(11, 25, 214);
+  font-size: 30px;
+  text-shadow: 2px 2px coral;
 }
 #warning:hover {
   background-color: rgb(204, 101, 6);
@@ -80,4 +82,8 @@
 background-color: #31139e;
 box-shadow: 0 5px rgb(216, 9, 9);
 transform: translateY(4px);
+}
+#vote{
+  font-size: 25px;
+  text-shadow: 2px 2px coral;
 }
