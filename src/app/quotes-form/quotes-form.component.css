@@ -10,7 +10,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  margin-left: 850px;
+  /* margin-left: 850px; */
 }
 
 #button:hover {background-color: #2e56d8}
@@ -22,13 +22,13 @@
 }
   h2{
       text-shadow: 2px 0px rgb(7, 22, 163);
-      margin-left: 850px;
+      /* margin-left: 850px; */
       font-family: 'Ewert', cursive;
   }
   .all{
     font-size: 20px;
     text-shadow: 2px 2px coral;
-    margin-left: 850px;
+    /* margin-left: 850px; */
   }
   .form{
     border-radius: 7px;
