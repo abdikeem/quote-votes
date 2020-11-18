@@ -1,6 +1,9 @@
 <!DOCTYPE html>
  <html>
      <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
             <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
      </head>
@@ -29,7 +32,7 @@
                      <div class="col-md-6">
                          <app-quotes-form (addQuotes)="addNewQuotes($event)"></app-quotes-form>
                      </div>
-                    <p *ngIf='quotes.length > 10'>You have too many quotes</p>
+                    <p *ngIf='quotes.length > 100'>You have too many quotes</p>
                 </div>
      </body>
  </html>
